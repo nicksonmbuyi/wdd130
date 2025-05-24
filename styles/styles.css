@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 nav {
     background-color: green;
     padding: 10px;
@@ -9,7 +13,13 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: darkblue;
+    color: (--heading-color);
+    font-weight: 100;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
 }
 
 img{
@@ -32,9 +42,9 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 /0.2); /* 1️⃣ */
-    padding: 1rem;
+    padding: 1rem var(--padding);
     background-color: #eee;
-    color: #333;
+    color: #3333; 
     text-align: center;
 }
 
