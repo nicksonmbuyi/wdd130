@@ -1,3 +1,10 @@
+:root {
+	--background:#ddd;
+	--heading-text-color: #000;
+	--heading-font: "Roboto", sans-serif;
+	--padding: 1rem;
+	--border: 1px solid rgb(0 0 0 /0.1)
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -17,7 +24,7 @@ h1 {
 
 .herodiv {
 	margin: 10px auto;
-	position: relative; /* If removed, what happens? */
+	/*position: relative;  If removed, what happens? */
 }
 
 .herodiv img {
