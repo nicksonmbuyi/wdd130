@@ -51,7 +51,7 @@ header,.grid, footer {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "", sans-serif;
     font-weight: 400;
 }
 
@@ -124,9 +124,9 @@ p { padding: 0;}
 
 footer {
     margin: 15px;
-    border-top: 1px solid #000;
-    padding-top: 5px;
-    text-align: center;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    text-align: right;
 }
 
 /* this code was updated by Nickson at 28th May 2025*/
