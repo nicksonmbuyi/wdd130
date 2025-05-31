@@ -52,6 +52,8 @@ nav {
 .socialmedia a {
     text-decoration: none;
     padding:1em;
+    flex-direction: row-reverse;
+
 }
 .vertical-images{
     display: grid;
