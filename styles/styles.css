@@ -72,7 +72,10 @@ header{
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px rgb(24, 23, 23);
-    flex-wrap: right;
+    border-color: #000;
+}
+.img {
+    align-items: right;
 }
 
 p {
@@ -132,22 +135,19 @@ main img {
     justify-content: flex-end;
 }
 
-footer {
-    margin: 15px;
-    border-top: blueviolet;
-    text-align: center;
-}
-
 /* This code was updated by Nickson at 28th May 2025 */
 
 p { padding: 0;}
-
+footer{
+    border-top: #000 auto;
+}
 footer {
     margin: 15px;
-    border-top: 2px solid #000;
+    border-top: #000 auto;
     padding-top: 10px;
     text-align: right;
-    color: rgb(162, 159, 164);
+    color: rgb(3, 3, 4);
+    margin: 15px;
 }
 
 /* this code was updated by Nickson at 28th May 2025*/
