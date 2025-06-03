@@ -18,7 +18,7 @@
 }
 
 nav {
-    background-color: #301430;
+    background-color:steelblue;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -30,10 +30,10 @@ nav a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
     padding: 0.5rem;
-    text-decoration: solid;
-    font-size:1.6rem;
+    text-decoration: none;
+    font-size: 1.2rem;
     font-weight: 700;
-    color: rgb(33, 23, 13);  /* this is new color: peru*/
+    color: #fff rgb(33, 23, 13);  /* this is new color: withe*/
 }
 
 h1 {
