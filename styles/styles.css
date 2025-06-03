@@ -9,12 +9,15 @@
 
 /* Class selector */
 .box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 20%);
+    margin: 2rem;
+    border: 1px solid rgba(60, 55, 55, 0.2);
     padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-    text-align: left;
+    background-color: #888282;
+    color: #dcd3d3;
+    text-align: auto;
+}
+.li {
+text-align: left;
 }
 
 nav {
@@ -23,7 +26,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: right;
-    color: whitesmoke;
+    color: white;
 }
 
 nav a {
@@ -33,7 +36,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff rgb(33, 23, 13);  /* this is new color: withe*/
+    color: #fff (33, 23, 13);  /* this is new color: withe*/
 }
 
 h1 {
@@ -60,6 +63,7 @@ body {
 header{
     font-family: "Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ";
     font-weight: 400;
+    color: #dcd3d3 solid;
 }
 
 .main img {
@@ -121,14 +125,16 @@ aside h2{
 }
 
 main img {
-    width: 150px;
-    height: auto;
-    float: right; /* this is new position of my profile */
+    width: 200px;
+    border: #000 1rem;
+    height: auto; 
+    float: right;/* this is new position of my profile */
+    justify-content: flex-end;
 }
 
 footer {
     margin: 15px;
-    border-top: var(--border);
+    border-top: blueviolet;
     text-align: center;
 }
 
@@ -141,7 +147,7 @@ footer {
     border-top: 2px solid #000;
     padding-top: 10px;
     text-align: right;
-    color: rebeccapurple;
+    color: rgb(162, 159, 164);
 }
 
 /* this code was updated by Nickson at 28th May 2025*/
