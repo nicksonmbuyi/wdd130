@@ -16,7 +16,7 @@
     <!--body-->
 <body>
     <header>
-         <img src="images/logo.jpg" alt="Rapid Clair Company Logo" class="logo">
+        <img src="images/logo.jpg" alt="Rapid Clair Company Logo" class="logo">
         <h1>Rapid Clair Company</h1>
         <nav>
             <a href="index.html">Home</a>
@@ -24,14 +24,108 @@
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
-     </header>
-<!--navigation-->
+    </header>
+<!--main-->
     
-    <navigation>
-        
-        
-    </navigation>
-    
+    <main>
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            
+            <div class="contact-grid">
+                <section class="contact-info">
+                    <h2>Our Information</h2>
+                    <address>
+                        <p><strong>Address:</strong><br>
+                        123 River Road<br>
+                        Rapids City, RC 12345</p>
+                        
+                        <p><strong>Phone:</strong><br>
+                        Main Office: (555) 123-4567<br>
+                        Reservations: (555) 987-6543</p>
+                        
+                        <p><strong>Email:</strong><br>
+                        <a href="mailto:info@whiterafting.com">info@whiterafting.com</a></p>
+                    </address>
+
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.498074685707!2d-111.7855759241364!3d43.81437897118543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c6ef8cdb!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1717466920763!5m2!1sen!2sus" 
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </section>
+
+                <section class="employee-profiles">
+                    <h2>Meet Our Team</h2>
+                    <div class="employees-grid">
+                        <figure>
+                            <img src="images/employee1.jpg" alt="Happy rafting guide">
+                            <figcaption>Sarah mwamba<br><em>Head Guide</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/employee2.jpg" alt="Happy rafting instructor">
+                            <figcaption>Mike nlonge<br><em>Safety Instructor</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/employee3.jpg" alt="Happy reservations manager">
+                            <figcaption>Emily billy<br><em>Reservations Manager</em></figcaption>
+                        </figure>
+                    </div>
+                </section>
+
+                <section class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Purpose of Message:</label>
+                            <div class="radio-group">
+                                <label>
+                                    <input type="radio" name="purpose" value="general" required>
+                                    General Inquiry
+                                </label>
+                                <label>
+                                    <input type="radio" name="purpose" value="reservation">
+                                    Reservation Question
+                                </label>
+                                <label>
+                                    <input type="radio" name="purpose" value="suggestion">
+                                    Website Suggestion
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label>
+                                <input type="checkbox" name="subscribe" checked>
+                                Please subscribe me to the monthly newsletter
+                            </label>
+                        </div>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
     <!--footer-->
     <footer> 
         <p>&copy; 2025 Rapid Clair Company | About Us</p>
@@ -46,6 +140,6 @@
                 <img src="images/social__media__social_media__twitter_-128.webp" alt="Twitter" width="32">
             </a>
         </nav>
-     </footer>
+    </footer>
 </body>
 </html>
