@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Knowledge Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>HTML & CSS Fundamentals Quiz</h1>
+    <form id="quiz-form">
+        <!-- Question 1 - Text input -->
+        <div class="question">
+            <label for="q1">1. What does the acronym HTML and CSS stand for?</label>
+            <input type="text" id="q1" name="q1" placeholder="Your answer...">
+        </div>
+        
+        <!-- Question 2 - Textarea -->
+        <div class="question">
+            <label for="q2">2. Explain the difference between width and height in CSS:</label>
+            <textarea id="q2" name="q2" rows="4" placeholder="Type your explanation here..."></textarea>
+        </div>
+        
+        <!-- Question 3 - Select dropdown -->
+        <div class="question">
+            <label for="q3">3. Which CSS property is used to change the text color of an element?</label>
+            <select id="q3" name="q3">
+                <option value="" selected disabled>Choose One...</option>
+                <option value="color">color</option>
+                <option value="text-color">text-color</option>
+                <option value="font-color">font-color</option>
+                <option value="text-style">text-style</option>
+            </select>
+        </div>
+        
+        <!-- Question 4 - Number input -->
+        <div class="question">
+            <label for="q4">4. How many heading levels (h1-h6) are available in HTML?</label>
+            <input type="number" id="q4" name="q4" min="1" max="10" placeholder="Enter a number">
+        </div>
+        
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>

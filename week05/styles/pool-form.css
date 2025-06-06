@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 header {
@@ -12,18 +11,16 @@ header {
 }
 h1 {
     margin:1rem;
-    font-size: 1em;
-    color: lime;
+    font-size: 1.5em;
+    color: rgb(11, 11, 11);
     text-align: center;
 }
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Merriweather, Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em;
     color: goldenrod;
-    background: #000;
+    background: #aaee;
 }
-
-
 form {
     width: 680px ;
     margin: 0 auto ;
@@ -32,13 +29,15 @@ form {
     border-radius: .7rem;
     background-color: #eee;
     display: grid;
+    justify-items: left;
 }
 fieldset {
     display:grid;
-    grid-gap:0.5em;
+    grid-gap:.5em;
     margin: 1rem;
     border: 1px solid rgb (0 0 0 / 0.2);
     padding: 1rem;
+    justify-items: center;
 }
 legend {
     padding: 0.5rem;
@@ -49,6 +48,9 @@ label {
     text-align: right;
     padding-right: 1rem;
 }
+label, input, button, select, textarea {
+    font-family: roboto, Arial, sans serif;
+}
 input,select,textarea {
     padding:0.5rem ;
     font-size: 1.1rem;
@@ -57,18 +59,29 @@ input[type="checkbox"] {
     width: 23px;;
     height: 20px;
     vertical-align: bottom;
-
 }
-buttom {
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+button {
     margin:1rem;
-    background-color: sandybrown;
-    color: #000;
+    background-color: rgb(5, 5, 5);
+    color: #e1d8d8;
     border:none;
     border-radius: .5rem;
     padding:.80rem;
     font-size: 1.2rem;
+    justify-content: right;
 }
-bottom :hover {
+button :hover {
     background-color: darkblue;
 
 }
@@ -79,6 +92,5 @@ footer{
     font-size: 0.9em;
     color:#666;
     border-top: 1px solid #ccc;
-
 }
 

@@ -1,51 +1,67 @@
 <!-- By Nickson Mbuyi -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-Us">
 <!-- head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd130 | HTML form-User Poll</title>
-
+    <title>wdd130 | HTML Form-User Poll</title>
+    
     <!-- here the links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet/pool-form.css">
+    <link rel="stylesheet" href="styles/pool-form.css">
 </head>
 <!-- body -->
 <body>
     <header>
-        <h1> wdd 130| Nickson Mbuyi| HTML form-User Poll </h1>
+        <h1> wdd 130| Nickson Mbuyi| HTML Form-User Poll </h1>
     </header>
     <main>
         <form>
             <fieldset>
                 <legend> Contact information</legend>
-                <label for="fullname"> Full Name :</label>
-                <input type="text" id="fullname" name="fullname">
-                <input mail="usermail" id="useremail" name="useremail">
+            <!-- a div class='form-item' -->
+                <div class="form-item"> 
+                    <label>Fullname: <input type="text" name="Fullname"></label>
+                    <label>Email: <input type="email" name="useremail"></label>
+                </div>
+                <div class="form-item column2">
+                    <label> Fullname: <input type="text" id="Fullname" name="Fullname"></label>
+                </div>
+                <div class="form-item column2">
+                    <label> useremail: <input mail="email" id="useremail" name="useremail"></label> 
+                </div>
             </fieldset>
 <!-- set command : form element here -->
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser?"> what is your favorite internet browser?</label>
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="chrome">firefox</option>
-                    <option value="chrome">safari</option>
-                    <option value="chrome">edge</option>
-                    <option value="chrome">brave</option>
-                    <option value="chrome">other</option>
-                </select>
-                <label for="pet"> Do you have a house pet? </label>
-                <input type="checkbox" id="pet" name="pet">
-                <label for="feedback">List the places you have lived:</label>
-                <textarea id="feedback" name="fedback" rows="4" placeholder="stillwater Kinshasa,Amsterdame, Timbuktu mali"></textarea>
+                <div class="form-item">
+                    <label for="browser?"> what is your favorite internet browser?</label>
+                </div>
+                <div class="form-item column1">
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="chrome">firefox</option>
+                        <option value="chrome">safari</option>
+                        <option value="chrome">edge</option>
+                        <option value="chrome">brave</option>
+                        <option value="chrome">other</option>
+                    </select>
+                </div>
+
+                <div class="form-item">
+                        <label for="pet"> Do you have a house pet? </label>
+                        <input type="checkbox" id="pet" name="pet">
+                        <label for="feedback">List the places you have lived:</label>
+                        <textarea id="feedback" name="fedback" rows="4" placeholder="stillwater Kinshasa,Amsterdame, Timbuktu mali"></textarea>
+                </div>
 <!-- .... here form for elements -->
             </fieldset>
+            <button type="submit"> submit Poll</button>
         </form>
-        <button type="submit"> submit Poll</button>
+        
     </main>
     <footer>
         <p>© 2025 | HTML Form-User Poll Activity| Nickson Mbuyi Mukendi</p>
