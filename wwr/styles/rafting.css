@@ -71,6 +71,7 @@ main {
     height: auto;
     max-height: 300px;
     object-fit: cover;
+    
 }
 
 .hero h1 {
@@ -89,6 +90,9 @@ article {
     position: absolute;
     bottom: 20px;
     right: 20px;
+}
+article img{
+    width: 410px;
 }
 
 .adventure-images {

@@ -6,25 +6,79 @@
 
 }
 
-head{
+header {
+    margin: 0 auto;
+    width: 700px;
+}
+h1 {
+    margin:1rem;
+    font-size: 1em;
+    color: lime;
+    text-align: center;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color: goldenrod;
+    background: #000;
+}
+
+
+form {
+    width: 680px ;
+    margin: 0 auto ;
+    padding: 1rem ;
+    border: 1px solid rgb (0 0 0 / O.5);
+    border-radius: .7rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset {
+    display:grid;
+    grid-gap:0.5em;
+    margin: 1rem;
+    border: 1px solid rgb (0 0 0 / 0.2);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: sandybrown;
+    font-size: 1.3em;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input,select,textarea {
+    padding:0.5rem ;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 23px;;
+    height: 20px;
+    vertical-align: bottom;
 
 }
-body{
-
+buttom {
+    margin:1rem;
+    background-color: sandybrown;
+    color: #000;
+    border:none;
+    border-radius: .5rem;
+    padding:.80rem;
+    font-size: 1.2rem;
 }
-
-h1{
-
-}
-
-.fielset{
-
-}
-
-buttom{
+bottom :hover {
+    background-color: darkblue;
 
 }
 footer{
-    
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align:center;
+    font-size: 0.9em;
+    color:#666;
+    border-top: 1px solid #ccc;
+
 }
 

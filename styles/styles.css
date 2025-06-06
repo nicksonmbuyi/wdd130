@@ -14,19 +14,18 @@
     padding: 1rem;
     background-color: #888282;
     color: #dcd3d3;
-    text-align: right;
-    display: flex;
+    text-align: auto;
 }
 .li {
 text-align: left;
 }
 
 nav {
-    background-color:steelblue;
+    background-color: peru;
     padding: 1rem;
     display: flex;
-    justify-content: space-evenly;
-    align-items: ;
+    justify-content: center;
+    align-items: left;
     color: white;
 }
 
@@ -37,7 +36,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff (33, 23, 13);  /* this is new color: withe*/
+    color: #000 (33, 23, 13);  /* this is new color: withe*/
 }
 
 h1 {
